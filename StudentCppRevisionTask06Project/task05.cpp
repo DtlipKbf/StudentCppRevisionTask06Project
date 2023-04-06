@@ -22,5 +22,9 @@
 */
 
 bool task05(int x1, int y1, int x2, int y2) {
-	return false;
+	int x = x1 - x2;
+	x *= x > 0 ? 1 : -1;
+	int y = y1 - y2;
+	y *= y > 0 ? 1 : -1;
+	return x1 > 0 && x1 < 9 && y1 > 0 && y1 < 9 && x2 > 0 && x2 < 9 && y2 > 0 && y2 < 9 && x == y;
 }
