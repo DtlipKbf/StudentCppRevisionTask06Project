@@ -251,4 +251,3 @@ void testingTaskX() {
 
 	cout << "Task X  " << (result ? RIGHT : WRONG) << endl;
 }
-
